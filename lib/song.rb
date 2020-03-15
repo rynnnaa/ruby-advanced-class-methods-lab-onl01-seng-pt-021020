@@ -27,6 +27,7 @@ class Song
     song
   end
   
+<<<<<<< HEAD
   def self.find_by_name(str)
     self.all.find {|string|string.name == str}
   end
@@ -67,4 +68,13 @@ def self.find_or_create_by_name(str)
   end
     
     
+=======
+# def self.find_or_create_by_name(str_song)
+#     self.find_by_name(str_song) || self.create_by_name(str_song)
+#   end
+  
+  # def self.alphabetical
+  #   @@all.sort_by { |num| -num }
+  # end
+>>>>>>> 4b2291ae0686da8a071d4c24b0caaf0babbe7935
 end
